@@ -1,0 +1,68 @@
+body {
+    font-family: 'Mirza', cursive;
+    font-size: 1.6em;
+    background-color: black;
+    color: #00e0c5;
+}
+
+.navbar {
+    position: fixed;
+    opacity: 0.8;
+    width: 100%;
+}
+
+#bandBack {
+    margin: 0px;
+    height: 50rem;
+    width: 100%;
+    background-size: cover;
+    background-image: url(images/ash-edmonds-510566-unsplash.jpg);
+}
+
+/* Main Name for Nav */
+.mai {
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+#name {
+    text-align: center;
+    padding-top: 11rem;
+    font-weight: 400;
+    font-size: 2.5em;
+}
+
+h2 {
+    text-align: center;
+    margin-top: .5rem;
+    font-size: 1.8em;
+    padding-bottom: 2rem;
+}
+
+.beats {
+    height: 10rem;
+    width: 10rem;
+    color: aqua;
+    border-radius: 25%;
+    margin: 0 auto;
+}
+
+.bgbeats {
+    text-align: center;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.mClassG {
+    margin: 0 auto;
+}
+
+.albumCover {
+    height: 100%;
+    width: 100%;
+}
+
+
+.wrapper {
+    padding: 1rem;
+}

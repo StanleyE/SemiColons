@@ -1,0 +1,40 @@
+body {
+    font-family: 'Mirza', cursive;
+    font-size: 1.6em;
+    background-color: black;
+    color: #00e0c5;
+}
+
+a {
+    color: #00e0c5;
+}
+
+.navbar {
+    opacity: 0.8;
+    width: 100%;
+}
+
+/* main Name on Nav */
+.mai {
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.table {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+
+tbody tr {
+    background-color: slategray;
+}
+
+.booking a:hover {
+    color: cyan;
+}

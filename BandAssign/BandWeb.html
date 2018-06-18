@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SemiColons</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="Band.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Mirza:400,500,600,700" rel="stylesheet">
+        <!-- FontAwesome! -->
+        <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand mai" href="Index.html">SemiColons!</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"       aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+        </button>
+         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                 <a class="nav-item nav-link active" href="#">Music <span class="sr-only">(current)</span></a>
+                 <a class="nav-item nav-link" href="AboutSC.html">About Them</a>
+                 <a class="nav-item nav-link" href="Tours.html">Tours</a>
+                 <a class="nav-item nav-link" href="https://unsplash.com/">Love the Background?</a>
+            </div>
+         </div>
+    </nav>
+
+
+    <!-- large picture with name -->
+    <header id = "bandBack">
+        <h1 id = "name">The Sick Beats</h1>
+    </header>
+
+<!-- Album covers grid-->
+    <h2 class="AC">Album Covers</h2>
+
+    <!-- Button -->
+        <div type= "button" class = "beats bgbeats">
+            <i class="fas fa-headphones fa-5x"></i>
+        </div>
+   
+    <div class="container-fluid motionJ">
+        <div class = "row mClassG">
+            <div class = "col-lg-4 col-sm-6 col-xs-8 wrapper">
+                <a href="https://unsplash.com/photos/MRxD-J9-4ps">
+                <img class = "albumCover" src="images/DRunsplash.jpg" alt="#FreeCoffee">
+                </a>
+            </div>
+            <div class = "col-lg-4 col-sm-6 col-xs-8 wrapper">
+                <a href="https://unsplash.com/photos/wn-KYaHwcis">
+                <img class = "albumCover" src="images/JKunsplash.jpg" alt="!False">
+                </a>
+            </div>
+            <div class = "col-lg-4 col-sm-6 col-xs-8 wrapper">
+                <a href="https://unsplash.com/photos/9SoCnyQmkzI">
+                <img class = "albumCover" src="images/JSunsplash.jpg" alt="Repeat">
+                </a>
+            </div>
+            <div class = "col-lg-4 col-sm-6 col-xs-8 wrapper">
+                <a href="https://unsplash.com/photos/aiyBwbrWWlo">
+                <img class = "albumCover" src="images/Kunsplash.jpg" alt="2AM">
+                </a>
+            </div>
+            <div class = "col-lg-4 col-sm-6 col-xs-8 wrapper">
+                <a href="https://unsplash.com/photos/FXFz-sW0uwo">
+                <img class = "albumCover" src="images/MSunsplash.jpg" alt="MIA">
+                </a>
+            </div>
+            <div class = "col-lg-4 col-sm-6 col-xs-8 wrapper">
+                <a href="https://unsplash.com/photos/FZWivbri0Xk">
+                <img class = "albumCover" src="images/NGunsplash.jpg" alt="Func">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQery -->
+    <script
+     src="https://code.jquery.com/jquery-3.3.1.min.js"
+     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function(){
+// an animation that when you click the button the covers come into view
+        $('.albumCover').hide();
+
+    $('.beats').click(fadeImages)
+    function fadeImages (){
+        $('.albumCover').each(function(){
+            // console.log('albumCover hit');
+            // console.log($(this));
+            $(this).fadeIn(2500);
+        })
+    }
+
+    // closing .ready
+    });
+
+
+</script>
+
+</body>
+</html>

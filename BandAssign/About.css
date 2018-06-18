@@ -1,0 +1,73 @@
+/* ---------------About Them CSS--------------------- */
+
+body {
+    font-family: 'Mirza', cursive;
+    font-size: 1.6em;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.navbar {
+    opacity: 0.9;
+    width: 100%;
+}
+
+/* Main title in Nav */
+.mai {
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+#aboutBack {
+    margin: 0px;
+    height: 55rem;
+    max-width: 90%;
+    background-size: cover;
+    background-image: url(images/clark-tibbs-367075-unsplash.jpg);
+}
+
+hr {
+    color: white;
+}
+
+.Bio {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 8rem;
+    line-height: 2em;
+}
+
+#bandPhoto {
+    height: 30%;
+    width: 30%;
+    border: 1px dashed #f928cc;
+}
+
+.cont {
+    padding: 1.5rem 0;
+}
+
+a {
+    color: #f928cc;
+}
+
+a:hover {
+    color: white;
+}
+
+a:visited {
+    color: thistle:
+}
+
+
+footer {
+    padding-bottom: 3rem;
+    margin: 1.5rem;
+}
+
+.row {
+    margin: 2rem auto;
+    height: 2rem;
+}
